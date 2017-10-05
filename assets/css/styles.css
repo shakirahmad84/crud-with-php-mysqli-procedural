@@ -1,0 +1,80 @@
+/* Common Styles
+================*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Raleway:300,400,600,700,800,900|Roboto:300,400,500,700,900');
+
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+body {
+   font-family: 'Raleway', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin: 0 0 15px;
+   font-weight: 700;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+   display: block;
+}
+
+
+input:focus,
+textarea:focus,
+button:focus {
+   outline: 0 solid;
+}
+
+
+/* Owl Carowsel
+===============*/
+
+.owl-carousel-class-name .owl-nav div {
+   position: absolute;
+   bottom: -40px;
+   height: 35px;
+   width: 30px;
+   line-height: 35px;
+   background: #1083D8;
+   text-align: center;
+   color: #fff;
+   font-size: 20px;
+   left: 42%;
+}
+
+.owl-carousel-class-name .owl-nav .owl-next {
+   left: auto;
+   right: 42%;
+}
+
+.owl-dots div {
+   display: inline-block;
+   height: 15px;
+   width: 15px;
+   background: #FACD38;
+   margin: -38px 5px;
+   border-radius: 50%;
+}
+
+.owl-dots div.active {
+   background-color: #1083D8;
+}
+
+.owl-dots {
+   text-align: center;
+}
